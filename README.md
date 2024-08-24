@@ -1,9 +1,9 @@
-## Your Name:
+## Your Name: LAB 10 SOLUTION
 
 
 # CIDM 3312 Lab 10: ASP.NET Core Advanced Modeling
 
-You are doing a thing
+Sentinel Technologies is a competitor to ThoughtTronix. They develop competing Neural, AI, and Cybersecurity products. Your assignment is to develop a web app that displays Sentinel Technologies' products and customer reviews for them.
 
 Complete the following tasks:
 
@@ -63,10 +63,14 @@ Complete the following tasks:
 2. Create a link to the Products Index page in `_Layout.cshtml`.
 3. Your scaffolded products page should look like this:
 
+![Page1](https://i.imgur.com/HkhXxKm.png)
+
 ## Task 3: Connect Related Data
 1. Edit `Pages/Products/Index.cshtml.cs` to bring in Reviews using `.Include()`.
 2. Edit `Pages/Products/Index.cshtml` to display reviews and their scores for each product. Your Products Index page should currently look like this:
-   
+
+![Page2](https://i.imgur.com/WJKvHqC.png)
+
 3. Truncate the product reviews to save space on the page. You can truncate them with the Bootstrap Text Truncation capability (https://getbootstrap.com/docs/5.3/helpers/text-truncation/)
    ```
    <span class="d-inline-block text-truncate" style="max-width: 300px;">
@@ -74,3 +78,5 @@ Complete the following tasks:
    </span>
    ```
 4. Remove the ImageURL table column and replace it with the actual images. Your final index page should look like this:
+
+![Page3](https://i.imgur.com/BsbwvLN.png)

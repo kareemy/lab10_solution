@@ -22,7 +22,7 @@ namespace lab10_solution.Pages_Products
 
         public async Task OnGetAsync()
         {
-            Product = await _context.Products.ToListAsync();
+            Product = await _context.Products.Include(p => p.Reviews).ToListAsync();
         }
     }
 }
